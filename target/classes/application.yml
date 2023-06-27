@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: employeeModule
+#          uri: http://localhost:9060/
+#          predicates:
+#            - Path=/employee-service/**
+#        - id: departmentModule
+#          uri: http://localhost:9061/
+#          predicates:
+#            - Path=/department-service/**
